@@ -1,0 +1,46 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.cov
+
+# Logs and test results
+*.log
+*.tmp
+
+# Directories for dependencies
+vendor/
+
+# Dependency directories
+Godeps/
+Gopkg.lock
+Gopkg.toml
+
+# Dependency directories (for Go modules)
+go.sum
+go.work
+
+# IDE directories
+.idea/
+.vscode/
+*.swp
+
+# GoLand project files
+*.iml
+
+# Compiled object files
+*.o
+*.a
+
+# Temporary build directories
+_build/
+
+# Custom application output
+/bin/
+/build/
+.env
